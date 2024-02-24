@@ -1,0 +1,88 @@
+.slyce {
+    font-weight: bold;
+    color: #fff;
+    font-size: 32px;
+    align-items:center;
+    border: 20px solid;
+
+}
+.styley {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 32px;
+    align-items:center;
+    background: url(../img/bend.JPG);
+    background-size: 70px;
+
+}
+.sasha {
+    font-weight: bold;
+    color: #120202;
+    font-size: 32px;
+    align-items:center;
+    background: url(../img/sasha.JPG);
+    background-size: 150px;
+}
+h1 {
+    font-weight: bold;
+    color: #2bdd9096;
+    font-size: 32px;
+    align-items:center;
+    border: blue;
+    background-image: url('../img/bend.JPG');
+}
+h2 {
+    font-weight: bold;
+    color: #fff;
+    font-size: 24px;
+    align-items:center;
+}
+h3 {
+    font-weight: bold;
+    align-items:center;
+}
+a {
+    color:aliceblue;
+    align-items:center;
+}
+form {
+    border-color: aqua;
+}
+body {
+    background: url(../img/shawty.JPG);
+    background-size: 100px;
+    width: 300px;
+    height: 300px;
+    color: pink;
+    align-items:center;
+}
+.left {
+    background: grey;  
+  }
+  
+  .right {
+    background: black;  
+  }
+  
+  .main-wrapper {
+    height: 100vh;  
+  }
+  
+  .section {
+    height: 100%;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .half {
+    background: #f9f9f9;
+    height: 50%;  
+    width: 100%;
+    margin: 15px 0;
+  }
+  
+  h4 {
+    color: white;  
+  }

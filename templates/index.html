@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{%block content %}
+    <div class="styley container">
+        <h1>Select a location </h1>
+        <div class="container bg-light vstack align-items-center">
+            <a class="btn btn-primary btn-sm " href="#" role="button"> </a>
+            <a class="btn btn-primary btn-sm " href="#" role="button"> </a>
+            <a class="btn btn-primary btn-sm " href="#" role="button"> </a>
+            <a class="btn btn-primary btn-sm " href="#" role"button"> </a>
+            <a class="btn btn-primary btn-sm " href="#" role="button"> </a>
+    </div>
+    <div class="content container">
+        <body class=bg-light>
+            <p>Dates coming soon</p>
+            <a class="btn btn-primary" href="{% url 'polls:index' %}">Polls</a>
+        </body>
+    </div>
+    
+{% endblock %}
